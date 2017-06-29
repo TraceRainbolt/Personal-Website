@@ -1,0 +1,261 @@
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+::selection {
+	background: #46d4c5;
+}
+
+a {
+	color: #289bd7;
+}
+
+a:visited {
+    color: #39958b;
+}
+
+.wrapper {
+	margin: 0;
+
+}
+
+#headerWrapper {
+	position: relative;
+	height: calc(100vh - 160px);
+	width: 100vw;
+    max-width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b79a1+0,283e51+100 */
+	background: #4b79a1; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #3D6382 0%, #192733 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #3D6382 0%,#192733 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #3D6382 0%,#192733 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b79a1', endColorstr='#283e51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#headerContainer {
+	width: 800px;
+	padding-top: calc(100vh - 680px);
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#left {
+	padding-top: 35px;
+	margin: 0;
+	display: inline-block;
+}
+
+#right {
+	float: right;
+}
+
+#topIntro {
+	margin: 0;
+	color: white;
+	font-family: "Archivo Black";
+	font-size: 64px;
+	text-shadow: 0px 5px #b3b3b3, 0 0 70px #283e51;
+	z-index: 1;
+}
+
+#topName {
+	margin: 0;
+	margin-top: -40px;
+	position: relative;
+	color: white;
+	font-family: "Archivo Black";
+	font-size: 110px;
+	text-shadow: 0px 5px #b3b3b3, 0 0 70px #283e51;
+	z-index: 0;
+}
+
+.topAnchor {
+	color: white;
+    display: inline-block;
+    *display: inline; /* for older IE */
+    *zoom: 1; /* for older IE */
+	width: 100%;
+	margin: 0;
+	font-family: "Archivo Black";
+	font-size: 28px;
+	list-style-type: none;
+	text-decoration: none;
+	text-shadow: 0px 1.3px #b3b3b3, 0 0 70px #283e51;
+}
+
+.topAnchor:visited {
+	color: white;
+}
+
+.icon {
+	vertical-align: middle;
+	-webkit-filter: drop-shadow( 0px 2px 0px #b3b3b3);
+	pointer-events: none;
+}
+
+#downArrow {
+	cursor: pointer; 
+	cursor: hand;
+	-webkit-filter: drop-shadow( 0px 5px 0px #b3b3b3);
+	-moz-filter: drop-shadow( 0px 5px 0px #b3b3b3);
+	-o-filter: drop-shadow( 0px 5px 0px #b3b3b3);
+}
+
+#downArrow:hover #downArrowBack{
+	-moz-transition: .1s;
+    -o-transition: .1s;
+    -webkit-transition: .1s;
+    transition: .1s;
+	fill: #243A49;
+}
+
+#projectsWrapper {
+	margin: 0;
+	padding: 0;
+	height: calc(480px * 6 + 200px);
+	width: 100vw;
+    max-width:100%;
+	background-color: #EEE;
+	background-size: 100% 100%;
+}
+
+.projectDisplay {
+	margin: 80px auto;
+	margin-top: 80px;
+	width: auto;
+	max-width: 990px;
+	height: 400px;
+	background: white;
+	border-bottom: solid;
+	border-radius: 26px;
+	border-color: lightgrey;
+	position: relative;
+	overflow: hidden;
+}
+
+#projectsTitle {
+	margin: 0;
+	padding-top: 30px;
+	color: #1C2D3A;
+	font-family: "Bree Serif";
+	font-size: 64px;
+	text-align: center;
+}
+
+.projectImage {
+	width: 400px;
+	height: 400px;
+}
+
+.projectDisplayRight {
+	width: 530px;
+	height: auto;
+	min-height: 100%;
+	float: right;
+	font-family: "Bree Serif";
+	margin-right: 25px;
+	margin-top: -20px;
+	color: #263C4F;
+}
+
+.projectTitle {
+	color: #1C2D3A;
+	font-size: 2.5rem;
+}
+
+.projectInfo {
+	top: 10vh;
+	margin-top: -30px;
+	font-size: 1.8rem;
+}
+
+.projectDescription {
+	font-size: 1.1rem;
+	margin-top: -10px;
+	word-wrap: break-word;
+}
+
+.projectGitButton {
+	position: absolute;
+	width: 110px;
+	height: 40px;
+	background: #f6f6f6;
+	text-align: center;
+	font-family: "Bree Serif";
+	font-size: 16px;
+	color: #263C4F;
+	border-radius: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: #ababab;
+	vertical-align: middle;
+	line-height: 40px; 
+	bottom: 30px;
+	text-decoration: none;
+}
+
+.projectGitButton:hover {
+	background: #fcfcfc;
+}
+
+.projectGitButton:visited {
+	color: #515151;
+}
+
+#footerWrapper {
+    max-width:100%;
+	width: 100vw;
+	height: 100px;
+	background: #263C4F;
+	text-align: center;
+}
+
+#footer {
+	padding-top: 20px;
+}
+
+
+#footerMailIcon {
+	padding-right: 30px;
+	display: inline-block;
+}
+
+#footerGitIcon {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+	#headerWrapper {
+		height: 100vh;
+	}
+
+	#headerContainer {
+		margin: 0 auto;
+		padding-top: 60%;
+	}
+
+	#left {
+		position: absolute;
+		padding-top: 460px;
+		left: 0; 
+  		right: 0; 
+  		margin-left: auto; 
+  		margin-right: auto;
+  		width: 260px;
+	}
+
+	#right {
+		text-align: center;
+		float: none;
+	}
+
+	#topIntro {
+		font-size: 90px;
+	}
+
+	#topName {
+		font-size: 140px;
+	}
+}
